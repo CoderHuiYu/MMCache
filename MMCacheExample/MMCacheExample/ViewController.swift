@@ -9,25 +9,32 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func remove(_ sender: Any) {
+        MeMoryCacheTest().remove()
+    }
+
+    @IBAction func add(_ sender: Any) {
+        MeMoryCacheTest().add()
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-         MeMoryCacheTest().test()
+
         
 //        OperationQueue
 //        DispatchGroup
 //
-        let p = Person()
-        print(p.dog)
-        print(p.validators)
+//        let p = Person()
+//        print(p.dog)
+//        print(p.validators)
         // Do any additional setup after loading the view.
         
         // Given
-        let initialValue = "jeffery"
-        let protected = Protected<String>(initialValue)
-        protected.write { (str) -> String in
-            print("str = \(str)")
-            return  "\(str) + hello"
-        }
+//        let initialValue = "jeffery"
+//        let protected = Protected<String>(initialValue)
+//        protected.write { (str) -> String in
+//            print("str = \(str)")
+//            return  "\(str) + hello"
+//        }
 //
 //        let a = protected.read { (str) -> String in
 //            print("str = \(str)")
@@ -38,10 +45,10 @@ class ViewController: UIViewController {
 //
 //       ////
         
-        let s = SomeStruct()
-        print(s.x)  // Int value
-        print(s.$x )   // SomeProjection value
-        print(s.$x.wrapper) // WrapperWithProjection value
+//        let s = SomeStruct()
+//        print(s.x)  // Int value
+//        print(s.$x )   // SomeProjection value
+//        print(s.$x.wrapper) // WrapperWithProjection value
         
     }
 

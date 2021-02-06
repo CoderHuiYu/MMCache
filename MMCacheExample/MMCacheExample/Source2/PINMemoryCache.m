@@ -363,7 +363,7 @@ static NSString * const PINMemoryCacheSharedName = @"PINMemoryCacheSharedName";
 {
     [self.operationQueue scheduleOperation:^{
         [self setObject:object forKey:key withCost:cost ageLimit:ageLimit];
-        
+        NSLog(@"--- is inserting obj to memory ---");
         if (block)
             block(self, key, object);
     } withPriority:PINOperationQueuePriorityHigh];

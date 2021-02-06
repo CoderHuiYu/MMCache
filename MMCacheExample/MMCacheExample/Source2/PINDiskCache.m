@@ -906,7 +906,7 @@ static NSURL *_sharedTrashURL;
     [self.operationQueue scheduleOperation:^{
         NSURL *fileURL = nil;
         [self setObject:object forKey:key withAgeLimit:ageLimit fileURL:&fileURL];
-        
+
         if (block) {
             block(self, key, object);
         }
@@ -1609,7 +1609,7 @@ static NSURL *_sharedTrashURL;
 {
     [self lock];
     
-    // Lock if the disk isn't writable.
+    // Lock if the disk isz't writable.
     if (_diskWritable == NO) {
         pthread_cond_wait(&_diskWritableCondition, &_mutex);
     }

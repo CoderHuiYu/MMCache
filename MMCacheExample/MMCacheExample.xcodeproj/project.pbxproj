@@ -156,13 +156,13 @@
 				E0E7C64225CA9A09008079C1 /* AppDelegate.swift */,
 				E0E7C64425CA9A09008079C1 /* SceneDelegate.swift */,
 				E0E7C64625CA9A09008079C1 /* ViewController.swift */,
+				E0E7C97725CEA273008079C1 /* MeMoryCacheTest.swift */,
 				E0E7C94025CE8A88008079C1 /* RunWrapper.swift */,
 				E0E7C94525CE8B8E008079C1 /* Person.swift */,
 				E0E7C64825CA9A09008079C1 /* Main.storyboard */,
 				E0E7C64B25CA9A0B008079C1 /* Assets.xcassets */,
 				E0E7C64D25CA9A0B008079C1 /* LaunchScreen.storyboard */,
 				E0E7C65025CA9A0B008079C1 /* Info.plist */,
-				E0E7C97725CEA273008079C1 /* MeMoryCacheTest.swift */,
 				E0E7C98725CEA3D3008079C1 /* MMCacheExample-Bridging-Header.h */,
 			);
 			path = MMCacheExample;

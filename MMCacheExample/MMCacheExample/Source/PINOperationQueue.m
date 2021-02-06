@@ -242,6 +242,7 @@
   NSMutableOrderedSet *queue = [self operationQueueWithPriority:operation.priority];
   
   dispatch_group_enter(_group);
+  NSLog(@"--- add operation ---");
   [queue addObject:operation];
   [_queuedOperations addObject:operation];
   [_referenceToOperations setObject:operation forKey:operation.reference];
