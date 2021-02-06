@@ -182,15 +182,15 @@
 		E0E7C94A25CEA1FE008079C1 /* Source2 */ = {
 			isa = PBXGroup;
 			children = (
-				E0E7C94B25CEA1FE008079C1 /* PINDiskCache.h */,
-				E0E7C94C25CEA1FE008079C1 /* PINCache.m */,
+				E0E7C95025CEA1FE008079C1 /* PINCacheMacros.h */,
 				E0E7C94D25CEA1FE008079C1 /* PINCacheObjectSubscripting.h */,
 				E0E7C94E25CEA1FE008079C1 /* PINCaching.h */,
-				E0E7C94F25CEA1FE008079C1 /* PINMemoryCache.m */,
-				E0E7C95025CEA1FE008079C1 /* PINCacheMacros.h */,
-				E0E7C95225CEA1FE008079C1 /* PINDiskCache.m */,
 				E0E7C95125CEA1FE008079C1 /* PINCache.h */,
+				E0E7C94C25CEA1FE008079C1 /* PINCache.m */,
+				E0E7C94B25CEA1FE008079C1 /* PINDiskCache.h */,
+				E0E7C95225CEA1FE008079C1 /* PINDiskCache.m */,
 				E0E7C95425CEA1FE008079C1 /* PINMemoryCache.h */,
+				E0E7C94F25CEA1FE008079C1 /* PINMemoryCache.m */,
 			);
 			path = Source2;
 			sourceTree = "<group>";
