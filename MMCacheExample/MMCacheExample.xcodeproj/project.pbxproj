@@ -16,6 +16,16 @@
 		E0E7C65A25CA9A0B008079C1 /* MMCacheExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E7C65925CA9A0B008079C1 /* MMCacheExampleTests.swift */; };
 		E0E7C66525CA9A0B008079C1 /* MMCacheExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E7C66425CA9A0B008079C1 /* MMCacheExampleUITests.swift */; };
 		E0E7C67A25CA9A29008079C1 /* MMDiskCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E7C67925CA9A29008079C1 /* MMDiskCache.swift */; };
+		E0E7C68225CA9A83008079C1 /* MMMemoryCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E7C68125CA9A83008079C1 /* MMMemoryCache.swift */; };
+		E0E7C90C25CE6D5F008079C1 /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E7C90B25CE6D5F008079C1 /* Protected.swift */; };
+		E0E7C94125CE8A88008079C1 /* RunWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E7C94025CE8A88008079C1 /* RunWrapper.swift */; };
+		E0E7C94625CE8B8E008079C1 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E7C94525CE8B8E008079C1 /* Person.swift */; };
+		E0E7C95525CEA1FE008079C1 /* PINCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E7C94C25CEA1FE008079C1 /* PINCache.m */; };
+		E0E7C95625CEA1FE008079C1 /* PINMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E7C94F25CEA1FE008079C1 /* PINMemoryCache.m */; };
+		E0E7C95725CEA1FE008079C1 /* PINDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E7C95225CEA1FE008079C1 /* PINDiskCache.m */; };
+		E0E7C96525CEA20A008079C1 /* PINOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E7C96025CEA20A008079C1 /* PINOperationQueue.m */; };
+		E0E7C96625CEA20A008079C1 /* PINOperationGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E7C96225CEA20A008079C1 /* PINOperationGroup.m */; };
+		E0E7C97825CEA273008079C1 /* MeMoryCacheTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E7C97725CEA273008079C1 /* MeMoryCacheTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,28 @@
 		E0E7C66425CA9A0B008079C1 /* MMCacheExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMCacheExampleUITests.swift; sourceTree = "<group>"; };
 		E0E7C66625CA9A0B008079C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0E7C67925CA9A29008079C1 /* MMDiskCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMDiskCache.swift; sourceTree = "<group>"; };
+		E0E7C68125CA9A83008079C1 /* MMMemoryCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMMemoryCache.swift; sourceTree = "<group>"; };
+		E0E7C90B25CE6D5F008079C1 /* Protected.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protected.swift; sourceTree = "<group>"; };
+		E0E7C94025CE8A88008079C1 /* RunWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunWrapper.swift; sourceTree = "<group>"; };
+		E0E7C94525CE8B8E008079C1 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		E0E7C94B25CEA1FE008079C1 /* PINDiskCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINDiskCache.h; sourceTree = "<group>"; };
+		E0E7C94C25CEA1FE008079C1 /* PINCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PINCache.m; sourceTree = "<group>"; };
+		E0E7C94D25CEA1FE008079C1 /* PINCacheObjectSubscripting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINCacheObjectSubscripting.h; sourceTree = "<group>"; };
+		E0E7C94E25CEA1FE008079C1 /* PINCaching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINCaching.h; sourceTree = "<group>"; };
+		E0E7C94F25CEA1FE008079C1 /* PINMemoryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PINMemoryCache.m; sourceTree = "<group>"; };
+		E0E7C95025CEA1FE008079C1 /* PINCacheMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINCacheMacros.h; sourceTree = "<group>"; };
+		E0E7C95125CEA1FE008079C1 /* PINCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINCache.h; sourceTree = "<group>"; };
+		E0E7C95225CEA1FE008079C1 /* PINDiskCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PINDiskCache.m; sourceTree = "<group>"; };
+		E0E7C95425CEA1FE008079C1 /* PINMemoryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINMemoryCache.h; sourceTree = "<group>"; };
+		E0E7C95D25CEA20A008079C1 /* PINOperationQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINOperationQueue.h; sourceTree = "<group>"; };
+		E0E7C95E25CEA20A008079C1 /* PINOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINOperation.h; sourceTree = "<group>"; };
+		E0E7C95F25CEA20A008079C1 /* PINOperationGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINOperationGroup.h; sourceTree = "<group>"; };
+		E0E7C96025CEA20A008079C1 /* PINOperationQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PINOperationQueue.m; sourceTree = "<group>"; };
+		E0E7C96125CEA20A008079C1 /* PINOperationMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINOperationMacros.h; sourceTree = "<group>"; };
+		E0E7C96225CEA20A008079C1 /* PINOperationGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PINOperationGroup.m; sourceTree = "<group>"; };
+		E0E7C96425CEA20A008079C1 /* PINOperationTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINOperationTypes.h; sourceTree = "<group>"; };
+		E0E7C97725CEA273008079C1 /* MeMoryCacheTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeMoryCacheTest.swift; sourceTree = "<group>"; };
+		E0E7C98725CEA3D3008079C1 /* MMCacheExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MMCacheExample-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,13 +134,20 @@
 		E0E7C64125CA9A09008079C1 /* MMCacheExample */ = {
 			isa = PBXGroup;
 			children = (
+				E0E7C94A25CEA1FE008079C1 /* Source2 */,
+				E0E7C95C25CEA20A008079C1 /* Source */,
+				E0E7C90B25CE6D5F008079C1 /* Protected.swift */,
 				E0E7C64225CA9A09008079C1 /* AppDelegate.swift */,
 				E0E7C64425CA9A09008079C1 /* SceneDelegate.swift */,
 				E0E7C64625CA9A09008079C1 /* ViewController.swift */,
+				E0E7C94025CE8A88008079C1 /* RunWrapper.swift */,
+				E0E7C94525CE8B8E008079C1 /* Person.swift */,
 				E0E7C64825CA9A09008079C1 /* Main.storyboard */,
 				E0E7C64B25CA9A0B008079C1 /* Assets.xcassets */,
 				E0E7C64D25CA9A0B008079C1 /* LaunchScreen.storyboard */,
 				E0E7C65025CA9A0B008079C1 /* Info.plist */,
+				E0E7C97725CEA273008079C1 /* MeMoryCacheTest.swift */,
+				E0E7C98725CEA3D3008079C1 /* MMCacheExample-Bridging-Header.h */,
 			);
 			path = MMCacheExample;
 			sourceTree = "<group>";
@@ -135,8 +174,40 @@
 			isa = PBXGroup;
 			children = (
 				E0E7C67925CA9A29008079C1 /* MMDiskCache.swift */,
+				E0E7C68125CA9A83008079C1 /* MMMemoryCache.swift */,
 			);
 			path = MMCache;
+			sourceTree = "<group>";
+		};
+		E0E7C94A25CEA1FE008079C1 /* Source2 */ = {
+			isa = PBXGroup;
+			children = (
+				E0E7C94B25CEA1FE008079C1 /* PINDiskCache.h */,
+				E0E7C94C25CEA1FE008079C1 /* PINCache.m */,
+				E0E7C94D25CEA1FE008079C1 /* PINCacheObjectSubscripting.h */,
+				E0E7C94E25CEA1FE008079C1 /* PINCaching.h */,
+				E0E7C94F25CEA1FE008079C1 /* PINMemoryCache.m */,
+				E0E7C95025CEA1FE008079C1 /* PINCacheMacros.h */,
+				E0E7C95225CEA1FE008079C1 /* PINDiskCache.m */,
+				E0E7C95125CEA1FE008079C1 /* PINCache.h */,
+				E0E7C95425CEA1FE008079C1 /* PINMemoryCache.h */,
+			);
+			path = Source2;
+			sourceTree = "<group>";
+		};
+		E0E7C95C25CEA20A008079C1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E0E7C95D25CEA20A008079C1 /* PINOperationQueue.h */,
+				E0E7C95E25CEA20A008079C1 /* PINOperation.h */,
+				E0E7C95F25CEA20A008079C1 /* PINOperationGroup.h */,
+				E0E7C96025CEA20A008079C1 /* PINOperationQueue.m */,
+				E0E7C96125CEA20A008079C1 /* PINOperationMacros.h */,
+				E0E7C96225CEA20A008079C1 /* PINOperationGroup.m */,
+				E0E7C96425CEA20A008079C1 /* PINOperationTypes.h */,
+			);
+			name = Source;
+			path = "../../../../8.下载-源码学习/PINCache-master/Carthage/Checkouts/PINOperation/Source";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,10 +340,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0E7C94125CE8A88008079C1 /* RunWrapper.swift in Sources */,
+				E0E7C95525CEA1FE008079C1 /* PINCache.m in Sources */,
 				E0E7C64725CA9A09008079C1 /* ViewController.swift in Sources */,
+				E0E7C95625CEA1FE008079C1 /* PINMemoryCache.m in Sources */,
 				E0E7C67A25CA9A29008079C1 /* MMDiskCache.swift in Sources */,
+				E0E7C90C25CE6D5F008079C1 /* Protected.swift in Sources */,
+				E0E7C96625CEA20A008079C1 /* PINOperationGroup.m in Sources */,
+				E0E7C95725CEA1FE008079C1 /* PINDiskCache.m in Sources */,
+				E0E7C96525CEA20A008079C1 /* PINOperationQueue.m in Sources */,
 				E0E7C64325CA9A09008079C1 /* AppDelegate.swift in Sources */,
 				E0E7C64525CA9A09008079C1 /* SceneDelegate.swift in Sources */,
+				E0E7C97825CEA273008079C1 /* MeMoryCacheTest.swift in Sources */,
+				E0E7C94625CE8B8E008079C1 /* Person.swift in Sources */,
+				E0E7C68225CA9A83008079C1 /* MMMemoryCache.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +538,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = yuhui.MMCacheExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/phjtytj-0008/Documents/3.个人代码+GitHub代码/11.MMCache/MMCacheExample/MMCacheExample/MMCacheExample-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -476,6 +558,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = yuhui.MMCacheExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/phjtytj-0008/Documents/3.个人代码+GitHub代码/11.MMCache/MMCacheExample/MMCacheExample/MMCacheExample-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
